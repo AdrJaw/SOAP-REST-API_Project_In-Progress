@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "9cae462a-c6c9-4cfd-aa86-9e64e8277c4a",
+		"name": "SOAP Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30342909"
+	},
+	"item": [
+		{
+			"name": "https://www.w3schools.com/xml/tempconvert.asmx",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soap12:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" \r\nxmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \r\nxmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\r\n  <soap12:Body>\r\n    <FahrenheitToCelsius xmlns=\"https://www.w3schools.com/xml/\">\r\n      <Fahrenheit>75</Fahrenheit>\r\n    </FahrenheitToCelsius>\r\n  </soap12:Body>\r\n</soap12:Envelope>",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.w3schools.com/xml/tempconvert.asmx",
+					"protocol": "https",
+					"host": [
+						"www",
+						"w3schools",
+						"com"
+					],
+					"path": [
+						"xml",
+						"tempconvert.asmx"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
