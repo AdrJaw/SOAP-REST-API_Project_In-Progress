@@ -3,3 +3,8 @@
 ## 🇬🇧
 
 ## 🇵🇱
+
+
+API:
+http://deckofcardsapi.com
+https://api.carbonintensity.org.uk/
